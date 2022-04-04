@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "name": "task1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-watch": "^4.0.1",
+    "sass": "^1.49.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:scss": "sass-compile"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "overrides": {
+    "graceful-fs": "^4.2.9"
+  }
+}
